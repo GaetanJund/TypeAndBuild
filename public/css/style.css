@@ -367,6 +367,10 @@ a:hover {
   animation: introTexte 3s;
 }
 
+.smartphone {
+  display: none;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(-30px);
@@ -671,8 +675,16 @@ footer {
     display: none;
   }
 
+  .image-intro {
+    padding-bottom: 280px;
+  }
+
   .image-intro h1 {
     font-size: 45px;
+  }
+
+  .smartphone {
+    display: inline;
   }
 
   #presentation {

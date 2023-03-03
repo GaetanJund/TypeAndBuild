@@ -75,6 +75,10 @@ a:hover{
   animation: introTexte 3s;
 }
 
+.smartphone{
+  display: none;
+}
+
 // Apparition progressive des "DIV"
 .reveal{
   opacity: 0;
@@ -368,8 +372,14 @@ footer{
   nav{
     display: none;
   }
+  .image-intro{
+    padding-bottom: 280px;
+  }
   .image-intro h1{
     font-size: 45px;
+  }
+  .smartphone{
+    display: inline;
   }
   #presentation{
     font-size: 40px;
