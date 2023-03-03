@@ -324,6 +324,10 @@ ul:hover {
   transition: 0.5s;
 }
 
+li {
+  list-style-type: none;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -687,6 +691,14 @@ footer {
 
   .titre-competences {
     font-size: 40px;
+  }
+
+  .ecommerce {
+    display: none;
+  }
+
+  footer {
+    text-align: center;
   }
 }
 
