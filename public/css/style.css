@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
@@ -655,8 +656,40 @@ svg {
 }
 
 footer {
-  text-align: right;
+  text-align: center;
   font-family: "Righteous", cursive;
+}
+
+footer a {
+  color: black;
+}
+
+.image-mentions-légales {
+  background-image: url(../../image/mentions-légales.png);
+  background-size: cover;
+  position: relative;
+}
+
+.mentions-légales {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.mentions-légales h1 {
+  font-family: "Righteous", cursive;
+  font-size: 50px;
+}
+
+.mentions-légales h2 {
+  font-family: "Righteous", cursive;
+  font-size: 35px;
+}
+
+.mentions-légales p {
+  font-size: 20px;
 }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
@@ -711,6 +744,10 @@ footer {
 
   footer {
     text-align: center;
+  }
+
+  .mentions-légales {
+    margin: 0;
   }
 }
 
